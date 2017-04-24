@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println("This jar will download from s3");
+        System.out.println("This jar will upload to s3");
         if (args.length != 2) {
             System.out.println("args size must be 2 current size is " + args.length);
             System.exit(-1);
